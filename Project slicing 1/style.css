@@ -1,0 +1,340 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 86px;
+  padding-right: 86px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #ffffff;
+}
+.logo img {
+  width: 186px;
+  height: 40px;
+}
+.logo img:hover {
+  animation: bounce 0.5s;
+}
+nav a {
+  margin-left: 30px;
+  text-decoration: none;
+  color: #000000;
+}
+nav a:hover {
+  color: #5e3bee;
+}
+.contact-button button {
+  background-color: #ffffff;
+  color: #5e3bee;
+  padding: 20px 30px;
+  margin-left: 50px;
+  border-color: #5e3bee;
+  border-radius: 10px;
+  cursor: pointer;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #f5fcff;
+  padding-left: 86px;
+  padding-right: 86px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+.intro {
+  text-align: left;
+  max-width: 50%;
+}
+.intro h3 {
+  font-size: 24px;
+  color: #5e3bee;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.intro h1 {
+  text-align: left;
+  font-size: 48px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.intro i {
+  font-style: normal;
+  text-align: left;
+  font-size: 48px;
+  color: #5e3bee;
+  margin-bottom: 20px;
+}
+.intro p {
+  text-align: left;
+  font-size: 18px;
+  color: #555555;
+  margin-bottom: 30px;
+}
+.intro button {
+  background-color: #5e3bee;
+  color: #ffffff;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.intro-image img {
+  width: 600px;
+  height: auto;
+}
+.skill {
+  padding-left: 86px;
+  padding-right: 86px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #ffffff;
+}
+.skill-title h4 {
+  font-size: 24px;
+  color: #000000;
+  margin-bottom: 10px;
+  text-align: left;
+}
+.skill-title h2 {
+  font-size: 36px;
+  color: #000000;
+  margin-bottom: 40px;
+  text-align: left;
+}
+.skill-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.skill-item {
+  width: 23%;
+  background-color: #f5fcff;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: left;
+  box-sizing: border-box;
+}
+.skill-item img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+.skill-item h3 {
+  font-size: 20px;
+  color: #000000;
+  margin-bottom: 30px;
+  text-align: left;
+}
+.skill-item p {
+  font-size: 14px;
+  color: #555555;
+  text-align: left;
+}
+.skill-item:hover {
+  box-shadow: #5e3bee 0px 7px 0px;
+  transition: bounce 0.5s color 0.5s ease-in-out;
+  animation: bounce 0.5s ease-in-out;
+}
+.about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 86px;
+  padding-right: 86px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #ffffff;
+}
+.about-image img {
+  width: 500px;
+  height: auto;
+}
+.about-content {
+  align-self: center;
+  max-width: 45%;
+  text-align: left;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+.about-content h3 {
+  font-size: 20px;
+  color: #000000;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.about-content h2 {
+  font-size: 36px;
+  color: #000000;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.about-content p {
+  font-size: 16px;
+  color: #000000;
+  margin-bottom: 30px;
+  text-align: left;
+}
+.Project {
+  padding-left: 86px;
+  padding-right: 86px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #ffffff;
+}
+.Project-header {
+  margin-bottom: 40px;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.Project-header button {
+  height: 60px;
+  background-color: #e62872;
+  font-size: 16px;
+  color: #ffffff;
+  padding: 15px 25px;
+  border-color: #ffffff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.Project-header button:hover {
+  color: black;
+  border-color: #e62872;
+  background-color: white;
+}
+.Project-title {
+  text-align: left;
+}
+.Project-title h3 {
+  text-align: left;
+  font-size: 20px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+.Project-title h2 {
+  text-align: left;
+  font-size: 36px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+.Project-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.Project-item {
+  width: 400px;
+  background-color: #ffffff;
+  font-size: 16px;
+  color: #5e3bee;
+  text-align: left;
+  margin-bottom: 10px;
+  box-shadow: #bbbbbb 2px 2px 2px 2px;
+  border-radius: 10px;
+}
+.Project-item img {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+.Project-item h4 {
+  text-align: left;
+  font-size: 20px;
+  color: #000000;
+  margin-left: 13px;
+  margin-right: 13px;
+  margin-bottom: 10px;
+}
+.Project-item p {
+  text-align: left;
+  font-size: 14px;
+  color: #555555;
+  margin-left: 13px;
+  margin-right: 13px;
+  margin-bottom: 20px;
+}
+.Project-item a {
+  padding-bottom: 5px;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: #000000;
+  font-weight: medium;
+  border: solid #000000;
+  border-width: 0 0px 2px 0;
+  margin-left: 13px;
+  margin-right: 13px;
+  margin-bottom: 15px;
+}
+.Project-item a .icon-arrow {
+  border: solid #000000;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 5px;
+  margin-left: 10px;
+  transform: rotate(-45deg);
+}
+.Project-item a:hover {
+  color: #e62872;
+  border-color: #e62872;
+}
+.Project-item a .icon-arrow:hover {
+  border-color: #e62872;
+}
+form {
+  padding-left: 86px;
+  padding-right: 86px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #ffffff;
+}
+form h2 {
+  font-size: 36px;
+  color: #000000;
+  margin-bottom: 40px;
+  text-align: left;
+}
+form input,
+form textarea {
+  justify-content: center;
+  width: 200%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.form-group-1  {
+  justify-content: space-evenly;
+  display: flex;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.form-group-inline {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 20px;
+}
